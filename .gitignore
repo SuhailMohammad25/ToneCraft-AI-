@@ -12,6 +12,7 @@ test_tonecraft.db
 backend/data/
 backend/*.log
 backend/pytest-cache-files-*/
+frontend/*.log
 
 # Node
 node_modules/
