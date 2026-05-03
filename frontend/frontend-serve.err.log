@@ -1,0 +1,37 @@
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:5173
+    at Server.setupListenHandle [as _listen2] (node:net:1915:21)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EACCES',
+  errno: -4092,
+  syscall127.0.0.1 - - [30/Apr/2026 01:20:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Apr/2026 01:20:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Apr/2026 01:20:32] "GET /assets/index-FC-mffzV.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/Apr/2026 01:20:32] "GET /assets/index-DXKbsanQ.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/Apr/2026 01:20:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:36] "GET /assets/index-FC-mffzV.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:20:36] "GET /assets/index-DXKbsanQ.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:21:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:21:02] "GET /assets/index-FC-mffzV.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:21:02] "GET /assets/index-DXKbsanQ.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:21:03] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:21:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:21:15] "GET /assets/index-FC-mffzV.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/Apr/2026 01:21:15] "GET /assets/index-DXKbsanQ.css HTTP/1.1" 304 -

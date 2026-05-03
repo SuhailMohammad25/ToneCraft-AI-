@@ -1,0 +1,4 @@
+
+> tonecraft-ai-frontend@0.1.0 serve
+> http-server dist -a 0.0.0.0 -p 5173 -c-1
+
